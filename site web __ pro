@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Asmahane Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+            background: #0f172a;
+            color: white;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .hero img {
+            width: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 32px;
+        }
+
+        p {
+            color: #cbd5e1;
+        }
+
+        .btn {
+            background: #3b82f6;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 20px;
+            color: white;
+            margin-top: 15px;
+            display: inline-block;
+        }
+
+        .services {
+            background: #1e293b;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .card {
+            background: #0f172a;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 10px;
+            display: inline-block;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="hero">
+    <img src="https://via.placeholder.com/150" alt="profile">
+    <h1>Je suis Asmahane 👋</h1>
+    <p>Traduction & Création de sites web</p>
+    <a class="btn">Contactez-moi</a>
+</div>
+
+<div class="services">
+    <h2>Mes Services</h2>
+
+    <div class="card">
+        <h3>Traduction</h3>
+        <p>Arabe / Français</p>
+    </div>
+
+    <div class="card">
+        <h3>Sites Web</h3>
+        <p>Sites simples et rapides</p>
+    </div>
+
+</div>
+
+</body>
+</html>
